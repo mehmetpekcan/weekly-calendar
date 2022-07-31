@@ -1,0 +1,30 @@
+@use "styles/variables" as variables;
+
+.date {
+  padding: 12px;
+  border-bottom: 2px solid transparent;
+
+  .dateText {
+    color: variables.$gray-300;
+    margin-bottom: 8px;
+  }
+
+  .dateNumber {
+    color: variables.$gray-500;
+  }
+
+  &.active {
+    font-weight: 700;
+    border-color: variables.$primary;
+    background: linear-gradient(
+      180deg,
+      variables.$white 0,
+      variables.$primary-opaque 100%
+    );
+
+    .dateText,
+    .dateNumber {
+      color: variables.$black-500;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+@use "styles/variables" as variables;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  color: variables.$black-500;
+  overflow-wrap: break-word;
+}
+h1,
+h2 {
+  font-weight: 900;
+}
+p {
+  overflow-wrap: break-word;
+  color: variables.$gray-500;
+}
+button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

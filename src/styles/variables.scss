@@ -1,0 +1,31 @@
+$primary: #6c5ce7;
+$primary-dark: #5c4ace;
+$primary-opaque: #6c5ce71a;
+
+$white: #fff;
+$white-100: #fefffe;
+$white-200: #f2f2f2;
+
+$hover: #f8f8f222;
+
+$gray-200: #fafbfc;
+$gray-300: #d2d4df;
+$gray-400: #f1f0f4;
+$gray-500: #a5a9b5;
+
+$black-500: #1f2c48;
+
+:export {
+  primary: $primary;
+  primary-dark: $primary-dark;
+  primary-opaque: $primary-opaque;
+  white: $white;
+  white-100: $white-100;
+  white-200: $white-200;
+  hover: $hover;
+  gray-200: $gray-200;
+  gray-300: $gray-300;
+  gray-400: $gray-400;
+  gray-500: $gray-500;
+  black-500: $black-500;
+}

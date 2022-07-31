@@ -1,0 +1,23 @@
+@use "styles/variables" as variables;
+
+.headerWrapper {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+
+  .actionButton {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+  .todayButton {
+    border: 1px solid variables.$black-500;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+  }
+}
